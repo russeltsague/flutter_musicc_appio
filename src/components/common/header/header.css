@@ -1,0 +1,162 @@
+header {
+  background-color: #fff;
+  height: 15vh;
+  box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 99999;
+} 
+header .nimmo{
+  color: #ff6922;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 40px;
+}
+header img {
+  width: 13vh;
+ 
+
+}
+header a {
+  margin-left: 30px;
+  transition: 0.5s;
+  font-weight: 500;
+}
+header a:hover {
+  color: #ff6922;
+}
+header span {
+  width: auto;
+  padding: 0px 6px;
+  background: #ff6922;
+  border-radius: 50px;
+  color: #ffffff;
+  margin-right: 4px;
+  font-weight: 400;
+}
+header h4 {
+  font-weight: 500;
+  margin-right: 20px;
+}
+header .toggle {
+  display: none;
+}
+@media screen and (max-width: 768px ) {
+  header {
+    padding: 15px 0;
+    position: sticky;
+    height: 15px;
+  }
+  header img {
+    margin-top: 0px;
+  }
+  header .button {
+    display: none;
+  }
+  header .nav .flex {
+    display: none;
+  }
+  header .toggle {
+    display: block;
+    margin-top: 20px;
+  }
+  header .small {
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    width: 100%;
+    background-color: #ff6922;
+    padding: 20px;
+  }
+  header li a {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  header .nimmo{
+    color: #ff6922;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+  }
+}
+ 
+
+@media screen and (max-width: 1228px ) {
+  header {
+    padding: 15px 0;
+    position: sticky;
+    height: 15vh;
+  }
+    header .nimmo{
+    color: #ff6922;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;}
+
+    header a{
+      font-size: 13px;
+    }
+}
+ 
+@media screen and (max-width: 420x) {
+  header img {
+    margin-top: 0px;
+    height: 20px;
+    width: 20px;
+  }
+  header {
+    padding: 15px 0;
+    position: sticky;
+    height: 150px;
+  }
+  header .small {
+    position: absolute;
+    top: 18px;
+    left: 0;
+    width: 100%;
+    background-color: #ff6922;
+    padding: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav-items {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: flex-end;
+  margin-right: 2rem;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  margin-right: 2rem;
+  padding: 6px 16px;
+  border-radius: 5px;
+}
+
+.nav-item a:hover {
+  background: rgb(0, 212, 212);
+}

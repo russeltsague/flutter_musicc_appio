@@ -1,0 +1,45 @@
+.car{
+    background: #ff6922;
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.car img {
+    width: 50%;
+}
+.car h1{
+    color: #fff;
+    font-size: 40px;
+    text-transform: capitalize;
+    width: 70%;
+}
+.car button{
+    color: #ff6922;
+    background: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 768px){
+    .car{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .car div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+         justify-content: center;
+    }
+    .car h1{
+        font-size: 25px;
+        width: 90%;
+        text-align: center;
+    }
+    .car img {
+        width: 90%;
+    }
+}
